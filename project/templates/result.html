@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="brandname">Twitter Sentiment Analysis</div>
+      </div>
+    </header>
+    <p>
+      <b>Result</b>
+    </p>
+    <div class="results">
+      {% if prediction == 1%}
+        <h2 style="color: red;">Negative</h2>
+      {% elif prediction == 0%}
+        <h2 style="color: blue;">Positive</h2>
+      {% endif %}
+    </div>
+    <a href="..">
+      <input type="submit" value="Back" />
+    </a>
+  </body>
+</html>

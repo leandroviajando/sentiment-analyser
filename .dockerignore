@@ -1,0 +1,6 @@
+*.ipynb
+.dockerignore
+.gitignore
+Dockerfile
+Pipfile
+Pipfile.lock
