@@ -25,9 +25,9 @@ Docker, and / or Python3
 
 **Live reloading** is enabled. Any changes made to the code in the `project` directory and `requirements.txt` are immediately mounted in the running container.
 
-(New) **dependencies** can be installed / updated with `docker-compose exec app pip install -r requirements.txt` (or `pipenv install <DEPENDENCY>`).
+(New) **dependencies** can be installed / updated with `docker-compose exec app pip install -r requirements.txt` in the Docker container, and `pipenv install <DEPENDENCY>` in the virtual env.
 
-Run `black`, `flake8` and `isort` in the container (or in the virtual env) to **format** the code.
+Run `black`, `flake8` and `isort` in the virtual env to **format** the code.
 
 ## Features
 

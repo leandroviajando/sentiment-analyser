@@ -1,3 +1,4 @@
+*.pdf
 *.ipynb
 .dockerignore
 .gitignore
