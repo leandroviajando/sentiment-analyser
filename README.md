@@ -2,6 +2,8 @@
 
 Following the Udemy course: [A to Z (NLP) Machine Learning Model Building and Deployment](https://www.udemy.com/course/a-to-z-nlp-machine-learning-model-building-and-deployment/)
 
+Enter a message to see if it is has a positive or negative connotation.
+
 ## Requirements
 
 Docker, and / or Python3
@@ -28,10 +30,6 @@ Docker, and / or Python3
 (New) **dependencies** can be installed / updated with `docker-compose exec app pip install -r requirements.txt` in the Docker container, and `pipenv install <DEPENDENCY>` in the virtual env.
 
 Run `black`, `flake8` and `isort` in the virtual env to **format** the code.
-
-## Features
-
-Enter a message to see if it is has a positive or negative connotation.
 
 ## Technologies
 
